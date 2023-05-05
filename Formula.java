@@ -19,4 +19,8 @@ public class Formula extends Physics{
         return multiply(mass, gravity)
     }
     
+    float Force(float mass, float acceleration){
+        return multiply(mass, acceleration)
+    }
+    
 }
