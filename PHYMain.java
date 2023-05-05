@@ -13,6 +13,7 @@ public class PHYMain {
             float mass = input.nextFloat();
             float height = input.nextFloat();
             float velocity = input.nextFloat();
+            float acceleration = input.nextFloat();
 
             System.out.println(formula.potentialEnergy(mass, height, gravity));
         }catch (InputMismatchException ime){
